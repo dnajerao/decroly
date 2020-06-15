@@ -1,0 +1,140 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  background-color: #f0f0f0;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23007bff' fill-opacity='0.15'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+h1, h2, h3 {
+  color: #17a2b8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.social {
+  background-color: #007bff;
+  display: flex;
+}
+.social .social__media {
+  display: flex;
+  justify-content: space-between;
+}
+.social .social__media ul {
+  display: inline-flex;
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  list-style: none;
+}
+.social .social__media li {
+  margin-right: 1.5em;
+}
+.social .social__media i {
+  color: white;
+  font-size: 16px;
+}
+
+.navbar {
+  background-color: white;
+}
+.navbar-brand {
+  height: 100%;
+}
+.navbar-brand a {
+  color: #17a2b8;
+  font-size: 1em;
+  font-weight: bold;
+}
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+.navbar i {
+  color: #007bff;
+}
+.navbar-nav li.nav-item {
+  margin-right: 1em;
+}
+.navbar-nav a {
+  color: #007bff;
+}
+.navbar-nav li a:hover {
+  color: #17a2b8;
+  border-bottom: 1px solid #17a2b8;
+}
+.navbar-nav .navbar-collapse {
+  background-color: #007bff;
+}
+.navbar-nav .special-nav-item {
+  border-radius: 5px;
+  background-color: #17a2b8;
+}
+.navbar-nav .special-nav-item a {
+  color: white;
+}
+.navbar-nav .special-nav-item:hover {
+  border-bottom: none;
+}
+
+#nosotros .container {
+  background-color: white;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 0.5em;
+}
+
+.nosotros__logo img {
+  width: 80%;
+}
+.nosotros__info a {
+  color: white;
+}
+.nosotros__info a:hover {
+  color: white;
+}
+
+#oferta-educativa .container {
+  background-color: white;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 0.5em;
+}
+
+.card-title-custom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.card-title-custom .text-center {
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 16px;
+  color: white;
+  background-color: #004a99;
+}
